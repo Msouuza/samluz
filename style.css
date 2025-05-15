@@ -1,0 +1,64 @@
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    video#bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+    p, .buttons {
+      z-index: 2;
+      position: relative;
+    }
+
+    p {
+      color: #ffffff;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .buttons {
+      margin-top: 30px;
+      display: flex;
+      gap: 20px;
+    }
+
+    button {
+      font-size: 1.5em;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    #sim {
+      background-color: #ff66a3;
+      color: white;
+    }
+
+    #nao {
+      background-color: #cccccc;
+      color: black;
+      position: relative;
+    }
