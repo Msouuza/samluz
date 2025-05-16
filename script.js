@@ -12,6 +12,6 @@
     });
 
     document.getElementById('sim').addEventListener('click', () => {
-      window.location.href = 'https://www.instagram.com/p/DITP6SNs_5q/';
+      window.location.href = 'https://www.youtube.com/watch?v=6h4BuzcCDfI';
     });
     
