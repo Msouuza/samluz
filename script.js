@@ -12,6 +12,6 @@
     });
 
     document.getElementById('sim').addEventListener('click', () => {
-      window.location.href = 'https://www.youtube.com/watch?v=51lOFuCR7dE';
+      window.location.href = 'https://www.youtube.com/watch?v=64vYkhmsagM&list=RD64vYkhmsagM&start_radio=1';
     });
     
